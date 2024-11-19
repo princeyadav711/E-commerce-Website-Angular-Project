@@ -1,0 +1,602 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": "2"
+    },
+    {
+      "name": "prince",
+      "password": "abc@123",
+      "email": "prince@test.com",
+      "id": "3"
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": "4"
+    },
+    {
+      "name": "anil",
+      "password": "abc123",
+      "email": "anil@test.com",
+      "id": "5"
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@test.com",
+      "id": "6"
+    },
+    {
+      "name": "sam",
+      "password": "abc@123",
+      "email": "sam@test.com",
+      "id": "7"
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@test.com",
+      "id": "8"
+    },
+    {
+      "id": "3ab4",
+      "name": "Adnan",
+      "password": "123456",
+      "email": "sample@gmail.com"
+    },
+    {
+      "id": "9dba",
+      "name": "yogesg",
+      "password": "123456",
+      "email": "prince@gmail.com"
+    },
+    {
+      "id": "aff2",
+      "name": "Prince",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "662b",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "aff1",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "5a30",
+      "name": "PRINCE ",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "4899",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "e929",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "83fa",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "13d3",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "0391",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "4b79",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "3e55",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "4bbc",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "1b06",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "9fe9",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "32ff",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    },
+    {
+      "id": "6a99",
+      "name": "PRINCE",
+      "password": "12345",
+      "email": "princeyadav93216@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "Safari Persia 65 Suitcase/Trolley Bag ",
+      "price": "5550",
+      "category": "car",
+      "color": "Blue",
+      "description": "ACEPACK GLX 68 cms Navy Blue Hard Sided Check-in Medium Size Luggage Trolley Bag for Travel Suitcase with 8 Spinner Wheels for Men and Women",
+      "image": "https://m.media-amazon.com/images/I/81LTa+BG7QL._AC_UY1100_.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Printed Double Bedsheet with 2 Pillow Covers",
+      "price": "3500",
+      "category": " Bedsheet ",
+      "color": "White&blue",
+      "description": "A bed sheet is a rectangular piece of cloth used either singly or in a pair as bedding,",
+      "image": "https://m.media-amazon.com/images/I/710WP3lvhcL.jpg",
+      "id": "3"
+    },
+    {
+      "name": "ZEBRONICS Jet PRO Premium Wired",
+      "price": "2500",
+      "category": "car",
+      "color": "Black",
+      "description": "Headphones are small loudspeaker drivers that are worn around the head over the ears.",
+      "image": "https://m.media-amazon.com/images/I/71fivoB5XAL._AC_UF1000,1000_QL80_.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Men Black Textured Silk Blend Sherwani",
+      "price": "9000",
+      "category": "Jeans",
+      "color": "black",
+      "description": "A sherwani is a long, fitted, button-down coat worn by men in South Asia for special occasions like weddings",
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/dc678ddKA-7159-D103-DU03-7.jpg?rnd=20200526195200&tr=w-512",
+      "id": "5"
+    },
+    {
+      "name": "Sony Bravia 164 cm (65 inches) 4K (Black)",
+      "price": "89000",
+      "category": "Smart TV",
+      "color": "Black",
+      "description": "A toy for 5 year old child",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/4/299766190/JK/PH/EI/6158633/32-inch-smart-android-led-tv.jpg",
+      "id": "6"
+    },
+    {
+      "name": "Noise Smart Watch Premium Metallic Build",
+      "price": "6000",
+      "category": "Smart Watch",
+      "color": "lightpink",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://m.media-amazon.com/images/I/71PXkv-smcL._AC_UF1000,1000_QL80_.jpg",
+      "id": "7"
+    },
+    {
+      "id": "fbb9",
+      "name": "Samsung Galaxy S24 Ultra 5G (12GB, 512GB Storage)",
+      "price": "130000",
+      "category": "mobile",
+      "color": "silver",
+      "description": "Sumsung S24 ultra ",
+      "image": "https://m.media-amazon.com/images/I/81vxWpPpgNL.jpg"
+    },
+    {
+      "id": "49f4",
+      "name": "Samsung Galaxy S24 Ultra 5G (12GB, 256GB Storage)",
+      "price": "125000",
+      "category": "mobile",
+      "color": "gold",
+      "description": "Sumsung S24 ultra",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-s928-sm-s928bzyqins-539573539?$650_519_PNG$"
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": "1"
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": "2"
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": "3"
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": "4"
+    },
+    {
+      "id": "a1cf",
+      "name": "ADNAN",
+      "email": "raj@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "edcc",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "cdee",
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "506e",
+      "name": "Adnan",
+      "email": "prince@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "3337",
+      "name": "ADNAN",
+      "email": "sample@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "fcae",
+      "name": "prince",
+      "email": "prince@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "b1c6",
+      "name": "PRINCE AKHILESH YADAV ",
+      "email": "prince@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "223e",
+      "name": "PRINCE",
+      "email": "prince@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "ab1e",
+      "name": "p",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "2e70",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "c1a3",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "217c",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "20b1",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "e06b",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "9cf5",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "6ef2",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "8fe4",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "551d",
+      "name": "PRINCE",
+      "email": "princeyadav93216@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": "7"
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 3,
+      "id": "8"
+    },
+    {
+      "id": "c53a",
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "quantity": 2,
+      "productId": "3",
+      "userId": "3337"
+    },
+    {
+      "id": "e48d",
+      "name": "Nike Shoes",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "Black",
+      "description": "Best shoes for Running",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "quantity": 1,
+      "productId": "4",
+      "userId": "3337"
+    },
+    {
+      "id": "af2b",
+      "name": "Truck",
+      "price": "Toy",
+      "category": "Toys",
+      "color": "Red",
+      "description": "A toy for 5 year old child",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "quantity": 1,
+      "productId": "6",
+      "userId": "b1c6"
+    },
+    {
+      "id": "6e77",
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 1,
+      "productId": "5",
+      "userId": "b1c6"
+    },
+    {
+      "id": "4d69",
+      "name": "KTM Rc Price 125",
+      "price": "350000",
+      "category": "Bike",
+      "color": "black",
+      "description": "KTM is Europe's undisputed leading high -performance street and offroad sport motorcycle manufacturer.",
+      "image": "https://cdn.bajajauto.com/-/media/images/ktm/ktm-bikes/supersport/ktm-rc-125/variant/specification.png",
+      "quantity": 1,
+      "productId": "3",
+      "userId": "2e70"
+    },
+    {
+      "id": "323c",
+      "name": "Printed Double Bedsheet with 2 Pillow Covers (Bedsheet for Double Bed Cotton, Blue More Jaipuri, King Size,732)",
+      "price": "3500",
+      "category": " Bedsheet ",
+      "color": "White&blue",
+      "description": "A bed sheet is a rectangular piece of cloth used either singly or in a pair as bedding,",
+      "image": "https://m.media-amazon.com/images/I/710WP3lvhcL.jpg",
+      "quantity": 1,
+      "productId": "3",
+      "userId": "217c"
+    },
+    {
+      "id": "5098",
+      "name": "ZEBRONICS Jet PRO Premium Wired Gaming On Ear Headphone with LED for Headband",
+      "price": "2500",
+      "category": "car",
+      "color": "Black",
+      "description": "Headphones are small loudspeaker drivers that are worn around the head over the ears.",
+      "image": "https://m.media-amazon.com/images/I/71fivoB5XAL._AC_UF1000,1000_QL80_.jpg",
+      "quantity": 1,
+      "productId": "4",
+      "userId": "217c"
+    },
+    {
+      "id": "5299",
+      "name": "Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)",
+      "price": "130000",
+      "category": "mobile",
+      "color": "silver",
+      "description": "Sumsung S24 ultra ",
+      "image": "https://m.media-amazon.com/images/I/81vxWpPpgNL.jpg",
+      "quantity": 1,
+      "productId": "fbb9",
+      "userId": "217c"
+    },
+    {
+      "id": "1cf4",
+      "name": "Printed Double Bedsheet with 2 Pillow Covers",
+      "price": "3500",
+      "category": " Bedsheet ",
+      "color": "White&blue",
+      "description": "A bed sheet is a rectangular piece of cloth used either singly or in a pair as bedding,",
+      "image": "https://m.media-amazon.com/images/I/710WP3lvhcL.jpg",
+      "quantity": 1,
+      "productId": "3",
+      "userId": "20b1"
+    },
+    {
+      "id": "a8e7",
+      "name": "Men Black Textured Silk Blend Sherwani",
+      "price": "9000",
+      "category": "Jeans",
+      "color": "black",
+      "description": "A sherwani is a long, fitted, button-down coat worn by men in South Asia for special occasions like weddings",
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/dc678ddKA-7159-D103-DU03-7.jpg?rnd=20200526195200&tr=w-512",
+      "quantity": 1,
+      "productId": "5",
+      "userId": "e06b"
+    },
+    {
+      "id": "40ef",
+      "name": "Safari Persia 65 Suitcase/Trolley Bag ",
+      "price": "5500",
+      "category": "car",
+      "color": "Blue",
+      "description": "ACEPACK GLX 68 cms Navy Blue Hard Sided Check-in Medium Size Luggage Trolley Bag for Travel Suitcase with 8 Spinner Wheels for Men and Women",
+      "image": "https://m.media-amazon.com/images/I/81LTa+BG7QL._AC_UY1100_.jpg",
+      "quantity": 1,
+      "productId": "2",
+      "userId": "9cf5"
+    }
+  ],
+  "orders": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": "1"
+    },
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": "3"
+    },
+    {
+      "id": "8c84",
+      "email": "prince@gmail.com",
+      "address": "Dahisar",
+      "contact": "9321683632",
+      "totalPrice": 3100,
+      "userId": "fcae"
+    },
+    {
+      "id": "d34e",
+      "email": "prince@gmail.com",
+      "address": "Dahisar",
+      "contact": "9321683632",
+      "totalPrice": 50100,
+      "userId": "223e"
+    },
+    {
+      "id": "ebca",
+      "email": "prince@gmail.com",
+      "address": "Dahisar",
+      "contact": "9321683632",
+      "totalPrice": 161100,
+      "userId": "506e"
+    },
+    {
+      "id": "f6ed",
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 5600,
+      "userId": "217c"
+    },
+    {
+      "id": "20f6",
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 6100,
+      "userId": "edcc"
+    },
+    {
+      "id": "1f1f",
+      "email": "princeyadav93216@gmail.com",
+      "address": "Dahisar",
+      "contact": "9321683632",
+      "totalPrice": 5600,
+      "userId": "edcc"
+    },
+    {
+      "id": "31cd",
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 130100,
+      "userId": "edcc"
+    },
+    {
+      "id": "4a42",
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 9100,
+      "userId": "edcc"
+    }
+  ]
+}

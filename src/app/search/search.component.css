@@ -1,0 +1,52 @@
+/* .search-item{
+    width: 800px;
+    margin: 25px auto;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+.search-item img{
+    width: 100%;
+    object-fit: contain;
+    height: 150px;
+}
+.search-item h6{
+    color: blueviolet;
+    font-size: 24px;
+}
+.search-item p{
+    margin-bottom: 5px;
+}
+.search-item span{margin-right: 10px;} */
+
+.search-item {
+    background-color: pink; /* Full pink background */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+}
+
+.search-item img {
+    max-width: 100%; /* Make the image responsive */
+    border-radius: 5px; /* Rounded image corners */
+}
+
+.details h6 a {
+    color: #ff1493; /* Dark pink color for text links */
+    text-decoration: none;
+}
+
+.details h6 a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.details p {
+    color: #ff69b4; /* Lighter pink color for text */
+    margin: 5px 0;
+}
+
+.details span {
+    display: inline-block;
+    margin-right: 10px;
+    color: #d83c8a; /* Different shade for color and category labels */
+}

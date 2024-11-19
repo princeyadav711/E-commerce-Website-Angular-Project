@@ -1,0 +1,75 @@
+.cart-page{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/* Styling for the H1 tag */
+h1 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+    color: #333; /* Default text color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+  }
+  
+  /* Hover effect for the H1 */
+  h1:hover {
+    color: white; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  }
+  
+.cart-page h1{
+    text-align: center;
+}
+.details {
+   
+}
+.details img{
+    height: 100px;
+}
+.details ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+.summary h3{
+    text-align: center;
+}
+
+.summary ul {
+    border: 1px solid black;
+    list-style-type: none;
+    padding: 15px;
+}
+
+/* Styling for the button */
+.form-button {
+     /* Default button background color */
+     /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Add padding for a better look */
+    font-size: 1rem; /* Adjust font size as needed */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Hover effect for the button */
+  .form-button:hover {
+    background-color: palevioletred; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  }
+  
+.summary ul li{
+    display: flex;
+    justify-content: space-between;
+}

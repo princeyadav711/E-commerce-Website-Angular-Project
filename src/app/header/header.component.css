@@ -1,0 +1,153 @@
+/* Header Navigation Styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  padding: 10px 20px; /* Add some padding around the header */
+  background-color:bisque; /* Dark background for the header */
+}
+
+.logo a {
+  color: black !important; /* Force color change */
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none; /* Remove default link underline */
+}
+
+.logo a:hover {
+  color: purple !important; /* Force hover color change */
+  transform: scale(1.1);
+}
+
+/* Title Styles */
+.nav h1 {
+  color: #ff4081; /* Accent color for the title */
+  margin: 0;
+  font-size: 40px;
+  text-decoration-color: aqua;
+}
+
+/* Search Bar Styles */
+.nav .nav-search {
+  flex: 1;
+  display: flex;
+  margin: 0 20px; /* Adjust margins for better alignment */
+  position: relative; /* Position for suggested search */
+}
+
+.nav .nav-search input {
+  flex: 1;
+  color: blueviolet; /* Change input text color */
+  border: 1px solid black;
+  height: 39px;
+  border-right: none;
+  border-radius: 5px 0 0 5px; /* Rounded corners */
+  background-color: white; /* Dark background for input */
+}
+
+.nav .nav-search button {
+  color: #fff; /* Light text color for button */
+  background-color: blueviolet; /* Button background */
+  border: 1px solid blueviolet;
+  height: 39px;
+  border-radius: 0 5px 5px 0; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.nav .nav-search button:hover {
+  background-color: black; /* Change button color on hover */
+}
+
+/* List Styles */
+.nav ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav ul li {
+  padding: 0 15px; /* Padding for list items */
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: black; /* Light text color for links */
+  cursor: pointer;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav ul a:hover {
+  color: blueviolet; /* Change link color on hover */
+}
+
+/* Suggested Search Styles */
+.suggested-search {
+  position: absolute;
+  top: 40px; /* Adjust based on header height */
+  z-index: 10;
+  border: 1px solid #ddd;
+  background-color: #1e1e1e; /* Dark background for suggestions */
+  width: 400px;
+  border-radius: 5px; /* Rounded corners for suggestions */
+}
+
+.suggested-search li {
+  padding: 5px;
+}
+
+.suggested-search li a {
+  cursor: pointer;
+  color: #fff; /* Light text color for suggestion links */
+}
+
+/* Responsive Hamburger Menu Styles */
+.hamburger {
+  display: none; /* Hide by default */
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px; /* Hamburger icon width */
+  height: 20px; /* Hamburger icon height */
+  background: transparent; /* Transparent background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.hamburger div {
+  width: 100%;
+  height: 3px; /* Bar height */
+  background-color: #ff4081; /* Bar color */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Show hamburger menu on small screens */
+@media (max-width: 768px) {
+  .nav ul {
+      display: none; /* Hide links by default */
+  }
+
+  .hamburger {
+      display: flex; /* Show hamburger */
+  }
+
+  /* Optional: Style for when menu is open */
+  .nav ul.open {
+      display: flex; /* Display links */
+      flex-direction: column; /* Stack links vertically */
+      position: absolute; /* Position the dropdown */
+      top: 70px; /* Position below the header */
+      left: 0;
+      background-color:antiquewhite; /* Dark background */
+      width: 100%; /* Full width */
+      z-index: 100; /* Above other elements */
+  }
+
+  .nav ul.open li {
+      padding: 10px 20px; /* Adjust padding for stacked items */
+  }
+}

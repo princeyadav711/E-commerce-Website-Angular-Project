@@ -1,0 +1,123 @@
+/* Base Styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:gray;
+    padding: 5px 20px;
+  }
+
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+
+  .logo a {
+    color: white; /* Default text color */
+    text-decoration: none;
+    font-size: 30px; /* Font size for the logo */
+    font-weight: bold; /* Bold text for emphasis */
+    letter-spacing: 2px; /* Spacing between letters */
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease; /* Smooth hover effects */
+    position: relative; /* Necessary for the underline effect */
+  }
+  
+  /* Hover effect for Wish-Cart logo */
+  .logo a:hover {
+    color: black; /* Change the text color to orange */
+    transform: scale(1.1); /* Slight zoom effect */
+    text-shadow: 0 0 10px rgba(14, 170, 191, 0.7); /* Glowing shadow effect */
+  }
+  
+  /* Optional underline animation effect on hover */
+  .logo a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .logo a:hover::after {
+    width: 100%; /* Expand underline on hover */
+  }
+  
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for menu links */
+  ul li a:hover {
+    color: black;
+  }
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Menu Display for Mobile */
+  ul {
+    transition: all 0.3s ease;
+  }
+  
+  ul.show {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+    
+    ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      left: 0;
+    }
+  
+    ul li {
+      text-align: center;
+      padding: 15px 0;
+    }
+  
+    ul li a {
+      padding: 15px;
+      display: block;
+    }
+  
+    ul.show {
+      display: block;
+    }
+  }
+  

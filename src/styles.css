@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  /* font-family: sans-serif; */
+  font-family: "Playfair Display", serif;
+  /* background-color:antiquewhite; */
+}
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.common-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding-left: 15px;
+  color: black;
+}
+.form-button {
+  height: 35px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+.error-p{
+  color: red;
+}
+
+.message-p{
+  color: green;
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: #0000007d;
+  border-radius: 10px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 5px;
+}
+
+.invalid-input{
+  color: red;
+  font-size: 12px;
+  margin-top:-20px
+}
+button:disabled{
+  cursor: not-allowed;
+}
+.max-width{
+  width: 100%;
+}
+
+
+

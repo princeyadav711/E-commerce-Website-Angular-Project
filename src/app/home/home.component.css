@@ -1,0 +1,85 @@
+/* Styling the H1 tag */
+h1 {
+  font-size: 2.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  margin: 20px 0;
+  /* text-align: center; */
+  color: #333; /* Default text color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+/* Hover effect for the H1 */
+h1:hover {
+  color: purple; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+
+.product-header-image{
+    object-fit: contain;
+    width: 100%;
+    height: 600px;
+}
+.product-item{
+    margin-bottom: 40px;
+    border: 1px solid black;
+}
+
+.product-item img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.product-item .product-details {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+.product-item .name-head{
+    font-size: 20px;
+    font-weight: 600;
+}
+.product-item h6{
+    text-align: center;
+}
+/* .product-item .product-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+} */
+
+.product-footer {
+    display: flex;
+    justify-content: space-between; /* Space out the buttons */
+    align-items: center; /* Vertically center the content */
+    padding: 10px; /* Add padding for better spacing */
+    background-color: #f8f9fa; /* Light background color */
+    border-top: 1px solid #ddd; /* Subtle border on top */
+  }
+  
+  .product-footer a {
+    text-decoration: none; /* Remove default link styling */
+    padding: 8px 15px; /* Add padding around the links */
+    background-color: plum; /* Primary button color */
+    color: black; /* White text for better contrast */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px; /* Adjust font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .product-footer a:hover {
+    background-color: lightcoral; /* Darker shade on hover */
+  }
+  
+  .product-footer a:first-child {
+    background-color: lightpink; /* Different color for 'View Details' */
+  }
+  
+  .product-footer a:first-child:hover {
+    background-color: palevioletred; /* Darker green on hover */
+  }
+  
+  

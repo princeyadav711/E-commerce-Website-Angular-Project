@@ -1,0 +1,54 @@
+footer {
+    background-color:aliceblue; /* Dark background color */
+    color: black; /* White text color */
+    padding: 20px 0; /* Space around the footer */
+    text-align: center; /* Center-align text */
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content */
+    padding: 0 20px; /* Add padding to the content */
+  }
+  
+  .footer-content p {
+    margin: 10px 0; /* Space between paragraphs */
+  }
+  
+  .footer-content a {
+    color: #4CAF50; /* Green link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer-links,
+  .social-links {
+    margin: 15px 0; /* Add space between links */
+  }
+  
+  .footer-links a,
+  .social-links a {
+    margin: 0 10px; /* Space between each link */
+    font-weight: bold; /* Make links bold */
+  }
+  
+  .footer-links a:hover,
+  .social-links a:hover {
+    color:cadetblue; /* Change color on hover */
+  }
+  
+  .social-links a {
+    font-size: 1.2em; /* Increase the size of social icons */
+  }
+  
+  @media (max-width: 768px) {
+    /* Responsive design for smaller screens */
+    .footer-links, .social-links {
+      display: block; /* Make links appear as blocks */
+      margin: 10px 0; /* Space out the blocks */
+    }
+  }
+  

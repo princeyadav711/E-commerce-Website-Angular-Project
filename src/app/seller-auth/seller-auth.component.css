@@ -1,0 +1,97 @@
+/* Container Styling */
+.seller-auth {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.error-p {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Form Input Styling */
+.common-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus Effect on Input */
+.form-input:focus {
+  outline: none;
+  border-color: #f39c12;
+}
+
+/* Button Styling */
+.form-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for button */
+.form-button:hover {
+  background-color: #f39c12;
+  transform: translateY(-2px);
+}
+
+/* Link Styling */
+.auth-toggle-link {
+  color: #333;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.auth-toggle-link:hover {
+  color: #f39c12;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .seller-auth {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .form-input, .form-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .auth-toggle-link {
+    font-size: 12px;
+  }
+}

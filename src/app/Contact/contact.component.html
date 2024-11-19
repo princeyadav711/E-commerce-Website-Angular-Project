@@ -1,0 +1,49 @@
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Us</span></h2>
+
+  <!-- Success message -->
+  <div *ngIf="successMessage" class="success-message">
+    {{ successMessage }}
+  </div>
+
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <div class="input-box">
+      <input type="text" formControlName="name" placeholder="Name">
+      <div *ngIf="submitted && contactForm.get('name')?.invalid">
+        <small *ngIf="contactForm.get('name')?.hasError('required')">Name is required.</small>
+        <small *ngIf="contactForm.get('name')?.hasError('minlength')">Name must be at least 2 characters long.</small>
+      </div> <br>
+
+      <input type="email" formControlName="email" placeholder="Email Address">
+      <div *ngIf="submitted && contactForm.get('email')?.invalid">
+        <small *ngIf="contactForm.get('email')?.hasError('required')">Email is required.</small>
+        <small *ngIf="contactForm.get('email')?.hasError('email')">Enter a valid email.</small>
+      </div>
+    </div>
+
+    <div class="input-box">
+      <input type="text" formControlName="mobileNumber" placeholder="Mobile Number">
+      <div *ngIf="submitted && contactForm.get('mobileNumber')?.invalid">
+        <small *ngIf="contactForm.get('mobileNumber')?.hasError('required')">Mobile Number is required.</small>
+        <small *ngIf="contactForm.get('mobileNumber')?.hasError('pattern')">Enter a valid 10-digit mobile number.</small>
+      </div> <br>
+
+      <input type="text" formControlName="lastName" placeholder="Last Name">
+      <div *ngIf="submitted && contactForm.get('lastName')?.invalid">
+        <small *ngIf="contactForm.get('lastName')?.hasError('required')">Last Name is required.</small>
+        <small *ngIf="contactForm.get('lastName')?.hasError('minlength')">Last Name must be at least 2 characters long.</small>
+      </div>
+    </div>
+
+    <textarea formControlName="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <div *ngIf="submitted && contactForm.get('message')?.invalid">
+      <small *ngIf="contactForm.get('message')?.hasError('required')">Message is required.</small>
+      <small *ngIf="contactForm.get('message')?.hasError('minlength')">Message must be at least 10 characters long.</small>
+    </div>
+
+    <button type="submit" class="btn">Send Message</button>
+
+    <div *ngIf="submitted && successMessage" class="success">{{ successMessage }}</div>
+    <div *ngIf="submitted && errorMessage" class="error">{{ errorMessage }}</div>
+  </form>
+</section>

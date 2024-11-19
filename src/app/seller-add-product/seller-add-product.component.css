@@ -1,0 +1,24 @@
+/* Styling for the H1 tag */
+h1 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+    color: #333; /* Default text color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+  }
+  
+  /* Hover effect for the H1 */
+  h1:hover {
+    color: white; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  }
+  
+h1{
+    color: black;
+    text-align: center;
+}
+.add-product{
+    text-align: center;
+}

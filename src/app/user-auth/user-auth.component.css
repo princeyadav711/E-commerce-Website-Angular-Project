@@ -1,0 +1,115 @@
+/* .user-auth h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: purple;  
+    text-align: center; 
+}
+
+.user-auth {
+    margin-bottom: 100px;
+}
+.user-auth a{
+    color: purple;
+    cursor: pointer;
+} */
+
+.user-auth {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffe6f0; /* Light pink background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Styling for H1 tags */
+h1 {
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+  color: #333; /* Default text color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+/* Hover effect for the H1 */
+h1:hover {
+  color: black; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+  
+  h1 {
+    color: #ff66a3; /* Pink color for headers */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .common-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ff66a3; /* Pink border */
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .form-input:focus {
+    border-color: #ff3399; /* Darker pink when focused */
+    box-shadow: 0 0 5px #ff99cc;
+  }
+  
+  .form-button {
+    background-color: #ff66a3; /* Pink button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-button:disabled {
+    background-color: #ff99cc; /* Lighter pink when disabled */
+  }
+  
+  .form-button:hover:not(:disabled) {
+    background-color: #ff3399; /* Darker pink on hover */
+  }
+  
+  .invalid-input {
+    color: #ff4d88; /* Redder pink for error messages */
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .error-p {
+    color: #ff1a66; /* Error message color */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  a {
+    color: #ff3399; /* Pink links */
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: #ff66a3;
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: center;
+    color: #ff4d88;
+  }
+  

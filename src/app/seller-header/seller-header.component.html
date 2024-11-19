@@ -1,0 +1,16 @@
+<nav class="nav"> 
+    <h1 class="logo"><a routerLink="">Wish-Cart</a></h1>
+  
+    <div class="hamburger" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  
+    <ul [ngClass]="{'show': menuOpen}">
+      <li><a routerLink="seller-add-product">Add Product</a></li>
+      <li><a routerLink="seller-home">List</a></li>
+      <li><a (click)="logout()">Logout</a></li>
+      <li><a href="#">{{sellerName | titlecase}}</a></li>
+    </ul>
+  </nav>

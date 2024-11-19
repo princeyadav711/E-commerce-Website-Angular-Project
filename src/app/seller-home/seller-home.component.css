@@ -1,0 +1,108 @@
+/* table{
+    text-align: left;
+    color: black;
+    border-collapse: collapse;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+table td , table th{
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 160pxs;
+}
+.adjust-update-link{
+    margin-left: 10px;
+} */
+
+.product-list {
+    background-color: white; /* Soft pink background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  /* Styling for the H1 tag */
+h1 {
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+  color: #333; /* Default text color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+/* Hover effect for the H1 */
+h1:hover {
+  color: #ff4500; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+  
+  .product-list h1 {
+    color: #ff69b4; /* Hot pink for the heading */
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .product-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .product-list table th, .product-list table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ffb6c1; /* Light pink borders */
+  }
+  
+  .product-list table th {
+    background-color: #ffb6c1; /* Light pink header */
+    color: black;
+    font-weight: bold;
+  }
+  
+  .product-list table td {
+    background-color: #fff0f5; /* Lighter pink for table rows */
+  }
+  
+  .product-list table td img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-list .message-p {
+    color: #ff69b4; /* Hot pink for the message */
+    font-weight: bold;
+  }
+  
+  .adjust-update-link {
+    color: #ff69b4;
+    margin-left: 10px;
+  }
+  
+  .fa-icon {
+    cursor: pointer;
+    color: #ff69b4;
+  }
+  
+  .fa-icon:hover {
+    color: #ff1493; /* Darker pink on hover */
+  }
+  
+  a.adjust-update-link:hover {
+    color: #ff1493; /* Darker pink on hover */
+  }
+  
+  table tr:hover {
+    background-color: lightpink; /* Slightly darker pink when hovering on a row */
+  }
+  
+  table tr:hover td {
+    background-color: lightpink; /* Even darker pink when hovering on a row */
+  }
+  

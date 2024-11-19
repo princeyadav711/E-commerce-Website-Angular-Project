@@ -1,0 +1,38 @@
+<nav class="nav">
+  <h3 class="logo"><a routerLink="">Wish-Cart</a></h3>
+  
+  <div class="nav-search">
+    <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search Products" />
+    <button (click)="submitSearch(searchInput.value)">Search</button>
+    <ul class="suggested-search" *ngIf="searchResult">
+      <li *ngFor="let item of searchResult">
+        <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Hamburger Menu Button -->
+  <button class="hamburger" (click)="toggleMenu()">
+    <div></div>
+    <div></div>
+    
+    <div></div>
+  </button>
+
+  <!-- Navigation Links -->
+  <ul [ngClass]="{'open': isMenuOpen}">
+    <ng-container *ngIf="userName; else guestLinks">
+      <li><a>{{userName | titlecase}}</a></li>
+      <li><a routerLink="my-orders">My Orders</a></li>
+      <li><a (click)="userLogout()">Logout</a></li>
+      <li><a routerLink="cart-page">Cart({{cartItems}})</a></li>
+    </ng-container>
+    <ng-template #guestLinks>
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="seller-auth">Seller</a></li>
+      <li><a routerLink="/user-auth">Login</a></li>
+      <li><a routerLink="cart-page">Cart({{cartItems}})</a></li>
+      <li><a routerLink="contact-us">Contact Us</a></li>
+    </ng-template>
+  </ul>
+</nav> 
